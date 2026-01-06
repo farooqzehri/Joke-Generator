@@ -1,26 +1,3 @@
-// const input = document.querySelector("#input");
-// const form = document.querySelector("#form");
-// const div = document.querySelector("#container");
-
-// form.addEventListener("submit", (e) => {
-//     e.preventDefault();
-
-//     fetch("https://api.freeapi.app/api/v1/public/randomjokes/joke/random")
-//         .then(res => res.json())
-//         .then(res => {
-//             console.log(res);
-
-//             div.innerHTML = `
-//                 <div>
-//                     <h1>Today's Joke</h1>
-//                     <p>${res.data.content}</p>
-//                 </div>
-//             `;
-//         })
-//         .catch(err => {
-//             console.log("Error:", err);
-//         });
-// });
 
 const form = document.querySelector("#form");
 const btn = document.querySelector("#btn");
@@ -68,3 +45,35 @@ form.addEventListener("submit", (e) => {
             btn.innerText = "Generate Joke";
         });
 });
+
+
+
+
+
+
+
+
+
+// const input = document.querySelector("#input");
+// const form = document.querySelector("#form");
+// const div = document.querySelector("#container");
+
+// form.addEventListener("submit", (e) => {
+//     e.preventDefault();
+
+//     fetch("https://api.freeapi.app/api/v1/public/randomjokes/joke/random")
+//         .then(res => res.json())
+//         .then(res => {
+//             console.log(res);
+
+//             div.innerHTML = `
+//                 <div>
+//                     <h1>Today's Joke</h1>
+//                     <p>${res.data.content}</p>
+//                 </div>
+//             `;
+//         })
+//         .catch(err => {
+//             console.log("Error:", err);
+//         });
+// });
